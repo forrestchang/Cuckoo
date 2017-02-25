@@ -1,0 +1,31 @@
+<div class="page-content">
+    <div class="container">
+        <div class="home">
+            <ul class="post-list">
+                {% for p in posts %}
+                <li>
+                    <span class="post-meta">{{ p.date }}</span>
+                    <h2><a class="post-link" href="{{ p.url }}">{{ p.title }}</a></h2>
+                    <div class="post-content" itemprop="articleBody">
+                        {{ p.desContent }}
+                        {% if p.readMore.length %}
+                            <a href="{{ p.url }}#more">Read more...</a>
+                        {% /if %}
+                    </div>
+                </li>
+                {% /for %}
+            </ul>
+            <p>
+                {% if prevPageUrl.length %}
+                    <a href="{{ prevPageUrl }}">Previous</a> 
+                    {% if nextPageUrl.length %} 
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+                    {% /if%}
+                {% /if %}
+                {% if nextPageUrl.length %}
+                    <a href="{{ nextPageUrl }}">Next</a> 
+                {% /if %}
+            </p>
+        </div>
+    </div>
+</div>
