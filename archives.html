@@ -4,9 +4,19 @@
             <ul class="post-list">
                 {% for p in posts %}
                     {% if p.year.length %}
-                        <li><h1 class="page-heading">{{ p.year }}</h1></li>
+                        <div class="post-year">
+                            <li><p class="page-heading">{{ p.year }}</p></li>
+                        </div>
+                    {% else %}
                     {% /if %}
-                    <li><h2><a href="{{ p.url }}" class="post-link">{{ p.title }}</a></h2></li>
+                    <div class="post-items">
+                        <li>
+                            <p>
+                                {{ p.dateMonth }} {{ p.dateDay }} - 
+                                <a href="{{ p.url }}" class="post-link">{{ p.title }}</a>
+                            </p>
+                        </li>
+                    </div>
                 {% /for %}
             </ul>
         </div>

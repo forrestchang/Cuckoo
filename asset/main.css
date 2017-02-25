@@ -209,3 +209,18 @@ a.site-title:hover {
 .detail p {
     font-size: 18px;
 }
+
+/**/
+
+ul .post-year {
+    list-style-type: none;
+    padding: 5px;
+    color: #F7915D;
+    font-size: 1.2em;
+}
+
+ul .post-items {
+    padding-left: 50px;
+    list-style-type: circle;
+    font-size: 0.98em;
+}
