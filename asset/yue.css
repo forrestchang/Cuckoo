@@ -61,13 +61,9 @@
   color: #111;
   word-wrap: break-word;
   text-decoration: none;
-  -webkit-text-decoration-color: rgba(0, 0, 0, .4);
-          text-decoration-color: rgba(0, 0, 0, .4);
 }
 .yue a:hover {
   color: #555;
-  -webkit-text-decoration-color: rgba(0, 0, 0, .6);
-          text-decoration-color: rgba(0, 0, 0, .6);
 }
 .yue h1 a, .yue h2 a, .yue h3 a {
   text-decoration: none;
