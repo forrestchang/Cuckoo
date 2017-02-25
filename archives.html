@@ -1,0 +1,14 @@
+<div class="page-content">
+    <div class="container">
+        <div class="home">
+            <ul class="post-list">
+                {% for p in posts %}
+                    {% if p.year.length %}
+                        <li><h1 class="page-heading">{{ p.year }}</h1></li>
+                    {% /if %}
+                    <li><h2><a href="{{ p.url }}" class="post-link">{{ p.title }}</a></h2></li>
+                {% /for %}
+            </ul>
+        </div>
+    </div>
+</div>
