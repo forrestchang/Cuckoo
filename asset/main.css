@@ -114,7 +114,7 @@
 
 /* Link */
 .post-content a {
-    color: #39F89D;
+    color: #3FCC87;
     padding-bottom: 2px;
     padding-left: 1px;
     padding-right: 1px;
@@ -165,4 +165,21 @@ a.site-title {
 
 a.site-title:hover {
     color: #444443;
+}
+
+.yue {
+    font-size: 20px;
+}
+
+.post-content {
+    font-family: Helvetica, STSong, SimSun, "PingFang SC";
+    font-size: 21px;
+}
+
+.yue pre {
+    font-size: 0.80em;
+}
+
+.yue code {
+    font-size: 0.87em;
 }
