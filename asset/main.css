@@ -183,3 +183,20 @@ a.site-title:hover {
 .yue code {
     font-size: 0.87em;
 }
+
+/* Footnotes */
+.footnotes hr {
+    width: 100%;
+    border-top: 1px solid #dededc;
+    border-bottom: none;
+    margin: 14px 0;
+}
+
+.footnotes {
+    font-size: 17px;
+    color: #686869;
+}
+
+.footnotes a {
+    color: #686869;
+}
