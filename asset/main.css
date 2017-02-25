@@ -129,3 +129,35 @@
     color: #DD7E42;
     border-bottom-color: #DD7E42;
 }
+
+/**/
+.home .paging {
+    text-align: center;
+}
+
+/**/
+.entry-list .entry-meta {
+    font-size: 14px;
+    color: #999;
+}
+
+.entry-list .entry-item {
+    margin: 25px 0 35px;
+    line-height: 25px;
+    min-height: 50px;
+}
+
+.home .entry-list {
+    list-style-type: none;
+}
+
+time.update {
+    font-family: serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+time.post-time {
+    font-size: 15px;
+    color: #999;
+}
