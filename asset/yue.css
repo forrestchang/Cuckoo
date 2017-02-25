@@ -16,7 +16,8 @@
 }
 
 .yue ::selection {
-  background-color: rgba(0, 0, 0, .2);
+  color: white;
+  background-color: black;
 }
 .yue h1,
 .yue h2,
@@ -59,6 +60,7 @@
 .yue a {
   color: #111;
   word-wrap: break-word;
+  text-decoration: none;
   -webkit-text-decoration-color: rgba(0, 0, 0, .4);
           text-decoration-color: rgba(0, 0, 0, .4);
 }

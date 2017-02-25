@@ -115,3 +115,17 @@
     font-size: 13px;
     text-align: center;
 }
+
+/* Link */
+.post-content a {
+    color: #39F89D;
+    padding-bottom: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-bottom: 1px solid #999;
+}
+
+.post-content a:hover {
+    color: #DD7E42;
+    border-bottom-color: #DD7E42;
+}
