@@ -226,6 +226,23 @@ ul .post-items {
 }
 
 h1.post-title {
-    padding-top: 40px;
     font-size: 50px;
+}
+
+header.post-header {
+    padding-top: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #eee;
+}
+
+.post-description p {
+    font-size: 1.5em;
+    color: #787879;
+    font-family: "PingFang SC","Lucida Grande","Helvetica Neue",Helvetica,"Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
+    margin-bottom: 0.4em;
+    
+}
+
+header .post-time {
+    font-family: serif;
 }
