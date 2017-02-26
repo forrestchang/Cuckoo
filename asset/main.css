@@ -224,3 +224,8 @@ ul .post-items {
     list-style-type: circle;
     font-size: 0.98em;
 }
+
+h1.post-title {
+    padding-top: 40px;
+    font-size: 50px;
+}
