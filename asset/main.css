@@ -253,3 +253,8 @@ header .post-time {
 .home .divider {
     padding-top: 50px;
 }
+
+.yue blockquote {
+    border-left: 3px solid #F7915D;
+    color: #787879;
+}
