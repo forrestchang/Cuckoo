@@ -1,6 +1,6 @@
 /* Site header */
 .site-header {
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #eee;
     min-height: 56px;
     position: relative;
 }
@@ -235,12 +235,11 @@ header.post-header {
     border-bottom: 1px solid #eee;
 }
 
-.post-description p {
+.post-description {
     font-size: 1.5em;
     color: #787879;
     font-family: "PingFang SC","Lucida Grande","Helvetica Neue",Helvetica,"Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
-    margin-bottom: 0.6em;
-    
+    margin-bottom: 0.6em;   
 }
 
 header .post-time {
@@ -249,4 +248,8 @@ header .post-time {
 
 #footer a {
     color: #737373;
+}
+
+.home .divider {
+    padding-top: 50px;
 }
