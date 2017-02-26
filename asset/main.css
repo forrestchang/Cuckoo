@@ -258,3 +258,8 @@ header .post-time {
     border-left: 3px solid #F7915D;
     color: #787879;
 }
+
+.yue code {
+    background-color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+}
