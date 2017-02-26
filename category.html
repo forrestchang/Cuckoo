@@ -10,9 +10,10 @@
                     <div class="detail">
                         <h2 itemprop="name"><a itemprop="url" href="{{ p.url }}">{{ p.title }}</a></h2>
                         <div itemprop="description">
-                            {{ p.desContent }}
-                            {% if p.readMore.length %}
-                                
+                            {% if p.ext_excerpt.length %}
+                                {{ p.ext_excerpt }}
+                            {% else %}
+                                {{ p.desContent }}
                             {% /if %}
                         </div>
                     </div>
