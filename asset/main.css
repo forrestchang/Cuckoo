@@ -263,3 +263,7 @@ header .post-time {
     background-color: #f8f8f8;
     border: 1px solid #f8f8f8;
 }
+
+.yue a {
+    transition: 0.5s;
+}
