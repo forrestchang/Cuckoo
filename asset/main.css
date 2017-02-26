@@ -246,3 +246,7 @@ header.post-header {
 header .post-time {
     font-family: serif;
 }
+
+#footer a {
+    color: #737373;
+}
