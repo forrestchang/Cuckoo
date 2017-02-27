@@ -160,7 +160,7 @@ time.post-time {
 
 a.site-title {
     font-size: 30px;
-    color: #4FC08D;
+    color: #ACACAC;
 }
 
 a.site-title:hover {
@@ -266,4 +266,8 @@ header .post-time {
 
 .yue a {
     transition: 0.3s;
+}
+
+.entry-item a:hover {
+    color: #4FC08D;
 }
