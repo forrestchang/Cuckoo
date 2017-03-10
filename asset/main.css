@@ -269,9 +269,9 @@ header .post-time {
     transition: 0.3s;
 }
 
-.entry-item a:hover {
+/*.entry-item a:hover {
     color: #4FC08D;
-}
+}*/
 
 mark {
     background-color: rgba(255, 255, 0, 0.35);
