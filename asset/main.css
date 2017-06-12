@@ -276,3 +276,8 @@ header .post-time {
 mark {
     background-color: rgba(255, 255, 0, 0.35);
 }
+
+.yue h2 {
+    font-family: Georgia,"Nimbus Roman No9 L",STSong,"Songti SC","AR PL New Sung","AR PL SungtiL GB",NSimSun,SimSun,"TW\-Sung","WenQuanYi Bitmap Song","AR PL UMing CN","AR PL UMing HK","AR PL UMing TW","AR PL UMing TW MBE",sans-serif;
+    font-weight: normal;
+}
