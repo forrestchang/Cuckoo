@@ -154,7 +154,7 @@ time.update {
 }
 
 time.post-time {
-    font-size: 15px;
+    font-size: 14px;
     color: #999;
 }
 
@@ -282,4 +282,8 @@ mark {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.post-meta {
+    text-align: center;
 }
