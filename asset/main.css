@@ -227,6 +227,7 @@ ul .post-items {
 
 h1.post-title {
     font-size: 50px;
+    margin-bottom: 0.3em;
 }
 
 header.post-header {
@@ -236,7 +237,7 @@ header.post-header {
 }
 
 .post-description {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #787879;
     margin-bottom: 0.6em;
 }
