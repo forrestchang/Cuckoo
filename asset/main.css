@@ -115,15 +115,15 @@
 /* Link */
 .post-content a {
     /* color: #4FC08D; */
-    padding-bottom: 2px;
+    padding-bottom: 0.5px;
     padding-left: 1px;
     padding-right: 1px;
-    border-bottom: 1px solid #999;
+    border-bottom: 0.5px solid #999;
 }
 
 .post-content a:hover {
-    color: #DD7E42;
-    border-bottom-color: #DD7E42;
+    color: #61D8A8;
+    border-bottom-color: #61D8A8;
 }
 
 /**/
@@ -201,8 +201,7 @@ a.site-title:hover {
 }
 
 .yue strong {
-    color: #F7915D;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .detail p {
