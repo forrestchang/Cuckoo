@@ -278,9 +278,7 @@ mark {
 .yue img {
     max-width: 80%;
     height: auto;
-    margin: 0.2em 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0.2em auto;
     display: block;
 }
 

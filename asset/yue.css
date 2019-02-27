@@ -181,10 +181,8 @@
 }
 .yue pre {
   margin: 1.64em 0;
-  padding: 7px;
   border: none;
-  border-left: 3px solid #dadada;
-  padding-left: 10px;
+  padding: 7px 7px 7px 10px;
   overflow: auto;
   line-height: 1.5;
   font-size: 0.96em;
@@ -197,7 +195,7 @@
   color: #4c4c4c;
   border: none;
   background: none;
-  padding: 0;
+  padding: 1em;
 }
 .yue table {
   width: 100%;
