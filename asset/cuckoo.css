@@ -7,5 +7,59 @@
 .cuckoo {
   font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YIaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
-  color: #373C38;
+  color: #1C1C1C;
 }
+
+.cuckoo ::selection {
+  color: white;
+  background-color: black;
+}
+
+.cuckoo a {
+  color: #1C1C1C;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+.cuckoo p a {
+  text-decoration: underline;
+}
+
+.cuckoo a:hover {
+  color: #86C166;
+}
+
+.cuckoo strong,
+.cuckoo b {
+  font-weight: bold;
+}
+
+.cuckoo em,
+.cuckoo i {
+  font-style: italic;
+}
+
+.cuckoo img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5em 0;
+}
+
+.cuckoo hr {
+
+}
+
+.cuckoo blockquote {
+
+}
+
+.cuckoo blockquote a {
+
+}
+
+.cuckoo ul,
+.cuckoo ol {
+
+}
+
+
