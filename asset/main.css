@@ -14,7 +14,6 @@
     float: left;
 }
 
-
 .site-nav {
     float: right;
     line-height: 56px;
@@ -110,59 +109,4 @@
     color: #999;
     font-size: 13px;
     text-align: center;
-}
-
-/* Link */
-.post-content a {
-    /* color: #4FC08D; */
-    padding-bottom: 0.5px;
-    padding-left: 1px;
-    padding-right: 1px;
-    border-bottom: 0.5px solid #999;
-}
-
-.post-content a:hover {
-    color: #61D8A8;
-    border-bottom-color: #61D8A8;
-}
-
-/**/
-.home .paging {
-    text-align: center;
-}
-
-/**/
-.entry-list .entry-meta {
-    font-size: 14px;
-    color: #999;
-}
-
-.entry-list .entry-item {
-    margin: 25px 0 80px;
-    line-height: 25px;
-    min-height: 50px;
-}
-
-.home .entry-list {
-    list-style-type: none;
-}
-
-time.update {
-    font-family: serif;
-    font-size: 14px;
-    font-style: italic;
-}
-
-time.post-time {
-    font-size: 14px;
-    color: #999;
-}
-
-a.site-title {
-    font-size: 30px;
-    color: #ACACAC;
-}
-
-a.site-title:hover {
-    color: #444443;
 }
