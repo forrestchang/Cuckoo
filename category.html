@@ -1,4 +1,5 @@
-<div class="page-content cuckoo">
+<div id="loading"></div>
+<div class="page-content cuckoo" id="body" style="display: none">
     <div class="wrapper">
         <div class="home">
             <div class="divider">
@@ -7,12 +8,12 @@
             <ul class="entry-list">
                 {% for p in posts %}
                 <li class="entry-item" itemscope="" itemtype="http://schema.org/Article">
-                    <div class="entry-meta">
-                        <time class="updated" datetime="{{ p.date }}">{{ p.date }}</time>
-                    </div>
-                    <div class="detail">
-                        <h2 itemprop="name"><a itemprop="url" href="{{ p.url }}">{{ p.title }}</a></h2>
-                        <div itemprop="description">
+                    <div class="entry-detail">
+                        <h2 itemprop="name" class="entry-title"><a itemprop="url" href="{{ p.url }}">{{ p.title }}</a></h2>
+                        <div class="entry-meta">
+                            <time class="entry-updated-time" datetime="{{ p.date }}">{{ p.dateGTM }}</time>
+                        </div>
+                        <div itemprop="description" class="entry-description">
                             {% if p.ext_excerpt.length %}
                                 {{ p.ext_excerpt }}
                             {% /if %}
@@ -32,9 +33,16 @@
 </div>
 
 <script src="asset/jquery-3.3.1.min.js"></script>
+<script src="asset/utils.js"></script>
 
 <script>
     $(document).ready(function() {
+        $('.entry-updated-time').each(function() {
+            let parsedTime = parseTime($(this).text()).slice(0, 10)
+            $(this).text(parsedTime)
+        })
+        $('#loading').hide()
+        $('#body').show()
         $('#footer').show()
     })
 </script>

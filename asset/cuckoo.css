@@ -20,6 +20,8 @@
   word-wrap: break-word;
   text-decoration: none;
   border-bottom: 1px solid #D0104C;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .cuckoo a:hover {
