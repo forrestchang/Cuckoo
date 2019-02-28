@@ -1,8 +1,12 @@
-/* Site header */
+/**
+    Site Header
+ */
 .site-header {
-    border-bottom: 1px solid #eee;
+    border-bottom: 3px solid #D0104C;
     min-height: 56px;
     position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .site-title {
@@ -12,6 +16,14 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+}
+
+a.site-title {
+    border-bottom: none;
+}
+
+.trigger a {
+    border-bottom: none;
 }
 
 .site-nav {
@@ -84,6 +96,11 @@
     margin-left: auto;
     padding-right: 30px;
     padding-left: 30px;
+}
+
+.home {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 @media screen and (max-width: 800px) {

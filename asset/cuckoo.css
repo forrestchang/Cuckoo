@@ -19,14 +19,17 @@
   color: #1C1C1C;
   word-wrap: break-word;
   text-decoration: none;
-}
-
-.cuckoo p a {
-  text-decoration: underline;
+  border-bottom: 1px solid #D0104C;
 }
 
 .cuckoo a:hover {
-  color: #86C166;
+  color: #D0104C;
+}
+
+.cuckoo h1 a,
+.cuckoo h2 a,
+.cuckoo h3 a {
+  border-bottom: none;
 }
 
 .cuckoo strong,
