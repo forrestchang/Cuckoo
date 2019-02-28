@@ -1,4 +1,6 @@
-<div class="page-content cuckoo">
+<div id="loading"></div>
+
+<div class="page-content cuckoo" style="display: none" id="body">
   <div class="wrapper">
     <div class="home">
       <ul class="post-list">
@@ -18,47 +20,16 @@
 </div>
 
 <script src="asset/jquery-3.3.1.min.js"></script>
+<script src="asset/utils.js"></script>
 
 <script>
-
-  function parseTime(time, cFormat) {
-    if (arguments.length === 0) {
-      return null
-    }
-    const format = cFormat || '{y}-{m}-{d} {h}:{i}:{s}'
-    let date
-    if (typeof time === 'object') {
-      date = time
-    } else {
-      if (('' + time).length === 10) time = parseInt(time) * 1000
-      date = new Date(time)
-    }
-    const formatObj = {
-      y: date.getFullYear(),
-      m: date.getMonth() + 1,
-      d: date.getDate(),
-      h: date.getHours(),
-      i: date.getMinutes(),
-      s: date.getSeconds(),
-      a: date.getDay()
-    }
-    const time_str = format.replace(/{(y|m|d|h|i|s|a)+}/g, (result, key) => {
-      let value = formatObj[key]
-      if (key === 'a') return ['一', '二', '三', '四', '五', '六', '日'][value - 1]
-      if (result.length > 0 && value < 10) {
-        value = '0' + value
-      }
-      return value || 0
+  $(document).ready(function() {
+    $('.post-time').each(function() {
+      let parsedTime = parseTime($(this).text()).slice(0, 10)
+      $(this).text(parsedTime)
     })
-    return time_str
-  }
-
-  let originTime = document.querySelector('.post-time').innerText
-  document.querySelector('.post-time').innerText = parseTime(Date.parse(originTime))
-  console.log(parseTime(Date.parse(originTime)))
-
-  {% for p in posts %}
-    document.querySelector('.post-time').innerText = parseTime(Date.parse("{{ p.dateGTM }}"))
-  {% /for %}
-
+    $('#loading').hide()
+    $('#body').show()
+    $('#footer').show()
+  })
 </script>
