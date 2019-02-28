@@ -10,6 +10,10 @@
   color: #1C1C1C;
 }
 
+.cuckoo p {
+  line-height: 1.5;
+}
+
 .cuckoo ::selection {
   color: white;
   background-color: black;

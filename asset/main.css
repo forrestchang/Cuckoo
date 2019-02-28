@@ -163,6 +163,25 @@ h2.entry-title {
   color: #999;
   font-size: 13px;
   text-align: center;
+  margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.post-header {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #787D7B;
+}
+
+h1.post-title {
+  font-family: serif;
+  font-size: 2.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.post-description {
+  font-size: 1.1em;
+  color: #7a7374;
 }
