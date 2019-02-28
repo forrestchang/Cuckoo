@@ -6,11 +6,11 @@
 
 .cuckoo {
   font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YIaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 18px;
-  color: #1C1C1C;
+  font-size: 20px;
+  color: #444443;
 }
 
-.cuckoo p {
+.cuckoo body {
   line-height: 1.5;
 }
 
@@ -20,16 +20,17 @@
 }
 
 .cuckoo a {
-  color: #1C1C1C;
+  color: #444443;
   word-wrap: break-word;
   text-decoration: none;
-  border-bottom: 1px solid #D0104C;
+  border-bottom: 1px solid #444443;
   margin-left: 2px;
   margin-right: 2px;
 }
 
 .cuckoo a:hover {
   color: #D0104C;
+  border-bottom: 1px solid #D0104C;
 }
 
 .cuckoo h1 a,
@@ -41,6 +42,8 @@
 .cuckoo strong,
 .cuckoo b {
   font-weight: bold;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .cuckoo em,
@@ -55,6 +58,49 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+.cuckoo pre {
+  overflow: auto;
+  white-space: pre;
+}
+
+.cuckoo code {
+  background-color: #FAFAFA;
+  padding: 5px;
+  white-space: pre-wrap;
+}
+
+.cuckoo pre code {
+  border-left: 4px solid #ed9db2;;
+  padding-left: 0.7em;
+}
+
+.cuckoo table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+}
+
+.cuckoo tr {
+  display: table-row;
+  vertical-align: inherit;
+  border: 1px solid #dadada;
+}
+
+.cuckoo th,
+.cuckoo td {
+  text-align: left;
+  padding: 4px 8px 4px 10px;
+  border: 1px solid #dadada;
+}
+
+.cuckoo th {
+  border-top: 2px solid #D0104C;
+  border-bottom: 2px solid #D0104C;
 }
 
 .cuckoo hr {

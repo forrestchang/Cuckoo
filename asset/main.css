@@ -23,7 +23,15 @@ a.site-title {
   border-bottom: none;
 }
 
+a.site-title:hover {
+  border-bottom: none;
+}
+
 .trigger a {
+  border-bottom: none;
+}
+
+.trigger a:hover {
   border-bottom: none;
 }
 
@@ -184,4 +192,15 @@ h1.post-title {
 .post-description {
   font-size: 1.1em;
   color: #7a7374;
+}
+
+.post-content p,
+.post-content ul,
+.post-content li {
+  font-family: "Source Han Serif SC", serif;
+  line-height: 1.6;
+}
+
+.footnotes {
+  font-size: 0.8em;
 }
