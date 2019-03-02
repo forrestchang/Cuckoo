@@ -221,3 +221,14 @@ a.site-title {
 a.page-link {
   text-decoration: none;
 }
+
+.img-comment {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.7em;
+  color: #8F8F8B;
+}
+
+ul.post-list {
+  margin-top: 2em;
+}
