@@ -3,7 +3,7 @@
  */
 .site-header {
   font-family: serif;
-  border-bottom: 3px solid #D0104C;
+  border-bottom: 3px solid #000;
   min-height: 56px;
   position: relative;
   margin-left: 10%;
@@ -115,8 +115,17 @@ a.site-title:hover {
 }
 
 .home {
-  margin-left: 20%;
-  margin-right: 20%;
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li.entry-item {
+  list-style-type: none;
+}
+
+.post-items li {
+  list-style-type: circle;
 }
 
 @media screen and (max-width: 800px) {
@@ -167,7 +176,7 @@ h2.entry-title {
 /* Footer */
 .page-footer {
   padding: 10px 0 20px;
-  border-top: 3px solid #D0104C;
+  border-top: 3px solid #000;
   color: #999;
   font-size: 13px;
   text-align: center;
@@ -198,9 +207,17 @@ h1.post-title {
 .post-content ul,
 .post-content li {
   font-family: "Source Han Serif SC", serif;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .footnotes {
   font-size: 0.8em;
+}
+
+a.site-title {
+  text-decoration: none;
+}
+
+a.page-link {
+  text-decoration: none;
 }
