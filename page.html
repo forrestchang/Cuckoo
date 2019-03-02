@@ -1,20 +1,14 @@
-<div class="page-content cuckoo">
-    <div class="wrapper">
-        <article class="post">
-            <header class="post-header">
-                <h1 class="post-title">{{ post.title }}</h1>
-            </header>
-            <div class="post-content">
-                {{ post.content }}
-            </div>
-        </article>
-    </div>
+<div class="site-content cuckoo">
+    <article class="site-article">
+        <h1 class="post-title">{{ post.title }}</h1>
+        <div class="post-content">{{ post.content }}</div>
+    </article>
 </div>
 
 <script src="asset/jquery-3.3.1.min.js"></script>
 
 <script>
     $(document).ready(function() {
-        $('#footer').show()
+        $('.site-footer').show()
     })
 </script>

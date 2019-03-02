@@ -1,34 +1,26 @@
-<div class="page-content cuckoo">
-    <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-            <header class="post-header">
-                <h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
-                <div class="post-description">
-                    {% if post.ext_excerpt.length %}
-                        {{ post.ext_excerpt }}
-                    {% /if %}
-                </div>
-            </header>
-            <div class="post-content" itemprop="articleBody">
-                {{ post.content }}
-            </div>
-            <div>
-                {{ commentAndShareCode }}
-                {% if ext_disqus_shortname.length %}
-                    <div id="disqus_thread"></div>
-                {% /if %}
-                {% if ext_duoshuo_shortname.length %}
-                    <div class="ds-thread" data-thread-key="{{ post.url }}" data-url="{{ siteURL }}{{ post.url }}" data-title="{{ post.title }}"></div>
-                {% /if %}
-            </div>
-        </article>
-    </div>
+<div class="site-content cuckoo">
+    <article class="site-article">
+        <h1 class="post-title">{{ post.title }}</h1>
+        <div class="post-description">
+            {% if post.ext_excerpt.length %}
+              {{ post.ext_excerpt }}
+            {% /if %}
+        </div>
+        <div class="post-content">{{ post.content }}</div>
+        <div class="post-comment">
+            {{ commentAndShareCode }}
+
+            {% if ext_disqus_shortname.length %}
+                <div class="disqus_thred"></div>
+            {% /if %}
+        </div>
+    </article>
 </div>
 
 <script src="asset/jquery-3.3.1.min.js"></script>
 
 <script>
     $(document).ready(function() {
-        $('#footer').show()
+        $('.site-footer').show()
     })
 </script>
